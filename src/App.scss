@@ -25,9 +25,6 @@
 .greenPart {
   background-color: var(--Cyan);
   height: 300px;
-}
-
-.greenPart {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -53,6 +50,7 @@
 .accesInfo {
   color: white;
   margin-bottom: 2.5rem;
+  font-size: 18px;
 }
 
 .btn {
@@ -63,4 +61,19 @@
   outline: none;
   cursor: pointer;
   font-size: 18px;
+  font-style: var(--boldFont);
+}
+.softGreenPart {
+  background: var(--SoftCyan);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: white;
+}
+.us {
+  margin-bottom: 2rem;
+}
+.ourInfo {
+  line-height: 25px;
 }
