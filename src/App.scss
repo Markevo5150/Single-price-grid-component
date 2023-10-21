@@ -4,15 +4,63 @@
 }
 .whitePart {
   background: var(--LightGray);
-  height: 250px;
-  padding: 2rem 1.5rem;
+  height: 270px;
+  padding: 2rem 2.5rem;
 }
 .title {
   color: var(--Cyan);
+  margin-bottom: 1.5rem;
+  font-size: 25px;
+  font-weight: var(--boldFont);
 }
 .promo {
   color: var(--BrightYellow);
+  margin-bottom: 1.2rem;
+  font-size: 20px;
 }
 .description {
   color: var(--GrayishBlue);
+  line-height: 25px;
+}
+.greenPart {
+  background-color: var(--Cyan);
+  height: 300px;
+}
+
+.greenPart {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.subscriptionTitle {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.prices {
+  margin-bottom: 0.8rem;
+}
+.actPrice {
+  color: white;
+  font-weight: var(--boldFont);
+  font-size: 35px;
+  margin-right: 1rem;
+}
+.time {
+  font-weight: var(--regularFont);
+  color: white;
+}
+.accesInfo {
+  color: white;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  background: var(--BrightYellow);
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
 }

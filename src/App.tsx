@@ -19,7 +19,7 @@ export default function App() {
             <span className="time">per month</span>
           </div>
           <p className="accesInfo">Full access for less than $1 a day</p>
-          <button>Sign Up</button>
+          <button className="btn">Sign Up</button>
         </div>
         <div className="softGreenPart">
           <h2 className="us">Why us</h2>
