@@ -1,3 +1,4 @@
+import "./App.scss";
 export default function App() {
   return (
     <>
@@ -20,7 +21,18 @@ export default function App() {
           <p className="accesInfo">Full access for less than $1 a day</p>
           <button>Sign Up</button>
         </div>
-        <div className="softGreenPart"></div>
+        <div className="softGreenPart">
+          <h2 className="us">Why us</h2>
+          <p className="ourInfo">
+            Tutorials by industry experts <br />
+            Peer & expert code review <br />
+            Coding exercises <br />
+            Acces to our GitHub repos <br />
+            Community forum <br />
+            Flashcard decks <br />
+            New videos every week.
+          </p>
+        </div>
       </div>
     </>
   );
